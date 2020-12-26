@@ -19,12 +19,12 @@
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
-			height: 100%;
+			height: 75%;
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 75%;
 		}
 
 		img {
@@ -66,10 +66,10 @@
 		&.main {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
-			width: 100%;
+			width: 75%;
 
 			img {
-				width: 100%;
+				width: 75%;
 			}
 		}
 

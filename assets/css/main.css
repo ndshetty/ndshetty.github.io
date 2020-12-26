@@ -651,12 +651,12 @@ input, select, textarea {
 			border-radius: 4px;
 			content: '';
 			display: block;
-			height: 100%;
+			height: 75%;
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 75%;
 		}
 
 		.image img {
@@ -669,7 +669,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 75%;
 			}
 
 		.image.left {
@@ -687,21 +687,21 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
-			width: 100%;
+			width: 75%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 75%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			width: 75%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 75%;
 			}
 
 		@media screen and (max-width: 736px) {
