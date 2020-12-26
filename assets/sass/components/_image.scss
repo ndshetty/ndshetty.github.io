@@ -54,18 +54,8 @@
 		}
 
 		&.fit {
-			display: block;
+			display: inline-block;
 			margin: 0 0 _size(element-margin) 0;
-			width: 100%;
-
-			img {
-				width: 100%;
-			}
-		}
-
-		&.main {
-			display: block;
-			margin: (_size(element-margin) * 1.25) 0;
 			width: 75%;
 
 			img {
@@ -73,6 +63,16 @@
 			}
 		}
 
+		&.main {
+			display: inline-block;
+			margin: (_size(element-margin) * 1.50) 0;
+			width: 75%;
+
+			img {
+				width: 75%;
+			}
+		}
+		
 		@include breakpoint('<=small') {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;
@@ -84,4 +84,4 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
-	}
+	

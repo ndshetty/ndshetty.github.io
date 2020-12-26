@@ -703,6 +703,11 @@ input, select, textarea {
 			.image.main img {
 				width: 75%;
 			}
+		
+		.image.gallery {
+			margin: 5px;
+
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -719,6 +724,7 @@ input, select, textarea {
 			}
 
 		}
+		
 
 /* List */
 
