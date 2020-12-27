@@ -651,12 +651,12 @@ input, select, textarea {
 			border-radius: 4px;
 			content: '';
 			display: block;
-			height: 75%;
+			height: 100%;
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 75%;
+			width: 100%;
 		}
 
 		.image img {
@@ -665,11 +665,11 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
-				width: 75%;
+				width: 100%;
 			}
 
 		.image.left {
@@ -687,21 +687,21 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
-			width: 75%;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 75%;
+				width: 100%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
-			width: 75%;
+			width: 100%;
 		}
 
 			.image.main img {
-				width: 75%;
+				width: 100%;
 			}
 		
 		.image.gallery {

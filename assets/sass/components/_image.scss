@@ -19,12 +19,12 @@
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
-			height: 75%;
+			height: 100%;
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 75%;
+			width: 100%;
 		}
 
 		img {
@@ -34,8 +34,8 @@
 
 		&.left,
 		&.right {
-			max-width: 40%;
-
+			//max-width: 40%;
+			max-width: 100%;
 			img {
 				width: 100%;
 			}
@@ -56,20 +56,20 @@
 		&.fit {
 			display: inline-block;
 			margin: 0 0 _size(element-margin) 0;
-			width: 75%;
+			width: 100%;
 
 			img {
-				width: 75%;
+				width: 100%;
 			}
 		}
 
 		&.main {
 			display: inline-block;
-			margin: (_size(element-margin) * 1.50) 0;
-			width: 75%;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 100%;
 
 			img {
-				width: 75%;
+				width: 100%;
 			}
 		}
 		
