@@ -685,7 +685,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			display: inline;
 			margin: 0 0 2rem 0;
 			width: 100%;
 		}
@@ -709,7 +709,9 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		.
+
+		@media screen and (max-width: 480px) {
 
 			.image.main {
 				margin: 2rem 0;
@@ -720,7 +722,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				margin: 2rem 0;
 			}
 
 		}
